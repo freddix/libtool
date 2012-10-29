@@ -1,7 +1,7 @@
 Summary:	GNU libtool, a shared library generation tool
 Name:		libtool
 Version:	2.4.2
-Release:	6
+Release:	7
 Epoch:		2
 License:	GPL
 Group:		Development/Tools
@@ -89,8 +89,8 @@ rm -rf $RPM_BUILD_ROOT
 %postun	-p /sbin/postshell
 -/usr/sbin/fix-info-dir -c %{_infodir}
 
-%post   -n libltdl -p /sbin/ldconfig
-%postun -n libltdl -p /sbin/ldconfig
+%post   -n libltdl -p /usr/sbin/ldconfig
+%postun -n libltdl -p /usr/sbin/ldconfig
 
 %files
 %defattr(644,root,root,755)
