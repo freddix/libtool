@@ -1,7 +1,8 @@
+# based on PLD Linux spec git://git.pld-linux.org/packages/libtool.git
 Summary:	GNU libtool, a shared library generation tool
 Name:		libtool
 Version:	2.4.2
-Release:	11
+Release:	13
 Epoch:		2
 License:	GPL
 Group:		Development/Tools
